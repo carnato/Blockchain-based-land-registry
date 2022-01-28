@@ -1,9 +1,11 @@
-function Register() {
+function Register(props) {
   return (
     <>
       <div class="columns">
         <div class="column is-two-fifths mx-auto">
           <form>
+            {props.user}
+
             <div class="field">
               <label class="label">Full Name</label>
               <div class="control">

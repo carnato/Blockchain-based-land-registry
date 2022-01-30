@@ -12,7 +12,7 @@ function RegisterLayout() {
 
   return (
     <>
-      <div class={!set ? "modal is-active" : "modal"}>
+      <div class={!set ? 'modal is-active' : 'modal'}>
         <div class="modal-background"></div>
         <div class="modal-card">
           <header class="modal-card-head">
@@ -32,7 +32,7 @@ function RegisterLayout() {
           <footer class="modal-card-foot">
             <button class="button is-success" onClick={toggle}>
               Done
-            </button>{" "}
+            </button>
           </footer>
         </div>
       </div>
